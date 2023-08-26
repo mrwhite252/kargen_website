@@ -33,7 +33,7 @@ export default {
     background-image:url('../../images/background-1.png'),linear-gradient(-120deg, #3e54d1, #00f641);
     background-repeat: no-repeat;
     background-size:70% auto,auto auto;
-    background-position: 8rem 4rem, 0;
+    background-position: 8rem 5rem, 0;
     padding-top:4rem;
     padding-left:0;
     padding-right:10rem;
@@ -78,11 +78,6 @@ h1 {
         font-size: 1.2rem;
     }
 }
-
-
-
-
-
 .text-wrapper {
     padding:4rem;
     /* background: rgba(255,255,255,0.1); */
@@ -91,7 +86,6 @@ h1 {
 h1,p {
     color:white;
 }
-
 
 .playVidBtn {
     border: 1px solid white;

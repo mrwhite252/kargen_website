@@ -3,8 +3,9 @@
 <template>
 
 <div class="relative">
-  <Nav/>
+  <Navbar/>
   <Welcome/>
+  <DescSection/>
 </div>
 
 
@@ -12,8 +13,9 @@
 
 
 <script setup>
-import Nav from '../components/Nav.vue';
+import Navbar from '../components/Navbar.vue';
 import Welcome from '../components/Welcome.vue';
+import DescSection from '../components/DescSection.vue';
 
 
 </script>
