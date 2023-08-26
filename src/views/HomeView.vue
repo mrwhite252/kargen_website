@@ -2,8 +2,9 @@
 
 <template>
 
-<div>
+<div class="relative">
   <Nav/>
+  <Welcome/>
 </div>
 
 
@@ -12,6 +13,7 @@
 
 <script setup>
 import Nav from '../components/Nav.vue';
+import Welcome from '../components/Welcome.vue';
 
 
 </script>
