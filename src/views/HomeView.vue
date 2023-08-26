@@ -6,6 +6,7 @@
   <Navbar/>
   <Welcome/>
   <DescSection/>
+  <swipeCard/>
 </div>
 
 
@@ -16,6 +17,7 @@
 import Navbar from '../components/Navbar.vue';
 import Welcome from '../components/Welcome.vue';
 import DescSection from '../components/DescSection.vue';
+import swipeCard from "../components/SwipeCard.vue";
 
 
 </script>
