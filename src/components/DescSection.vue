@@ -30,7 +30,7 @@ export default {
     border: solid 2px transparent;
     border-radius: 2rem;
     background-image: linear-gradient(#fff, #fff),
-    linear-gradient(#3e54d1, #00f641);
+    linear-gradient( #3e54d1, #00f641);
     background-origin: border-box;
     background-clip: content-box, border-box;
     width:8rem;
