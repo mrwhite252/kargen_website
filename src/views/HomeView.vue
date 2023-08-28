@@ -6,7 +6,7 @@
   <Navbar/>
   <Welcome/>
   <DescSection/>
-  <swipeCard/>
+  <SwipeCards/>
   <Achievement/>
 </div>
 
@@ -15,11 +15,12 @@
 
 
 <script setup>
+import Welcome from '../components/homepageComponents/Welcome.vue';
+import DescSection from "../components/homepageComponents/DescSection.vue";
+import SwipeCards from "../components/homepageComponents/SwipeCards.vue";
+import Achievement from "../components/homepageComponents/Achievement.vue";
 import Navbar from '../components/Navbar.vue';
-import Welcome from '../components/Welcome.vue';
-import DescSection from '../components/DescSection.vue';
-import swipeCard from "../components/SwipeCard.vue";
-import Achievement from '../components/Achievement.vue';
+
 
 
 </script>
