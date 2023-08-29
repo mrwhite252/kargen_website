@@ -11,6 +11,7 @@
   <ProductIntro/>
   <Application/>
   <LatestNews/>
+  <PageFooter/>
 </div>
 
 
@@ -24,8 +25,9 @@ import SwipeCards from "../components/homepageComponents/SwipeCards.vue";
 import Achievement from "../components/homepageComponents/Achievement.vue";
 import ProductIntro from "../components/homepageComponents/ProductIntro.vue";
 import Application from "../components/homepageComponents/Application.vue";
-import Navbar from '../components/Navbar.vue';
 import LatestNews from '../components/homepageComponents/LatestNews.vue';
+import Navbar from '../components/Navbar.vue';
+import PageFooter from '../components/PageFooter.vue';
 
 
 
