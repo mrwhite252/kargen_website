@@ -9,6 +9,7 @@
   <SwipeCards/>
   <Achievement/>
   <ProductIntro/>
+  <Application/>
 </div>
 
 
@@ -21,6 +22,7 @@ import DescSection from "../components/homepageComponents/DescSection.vue";
 import SwipeCards from "../components/homepageComponents/SwipeCards.vue";
 import Achievement from "../components/homepageComponents/Achievement.vue";
 import ProductIntro from "../components/homepageComponents/ProductIntro.vue";
+import Application from "../components/homepageComponents/Application.vue";
 import Navbar from '../components/Navbar.vue';
 
 
