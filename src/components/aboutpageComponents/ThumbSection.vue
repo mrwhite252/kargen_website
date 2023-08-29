@@ -19,7 +19,7 @@ export default {
     background-size: 100% auto;
     background-repeat: no-repeat;
     padding-top:8rem;
-    padding-left:5rem;
+    padding-left:4rem;
 }
 
 
