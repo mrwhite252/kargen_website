@@ -1,12 +1,11 @@
 <template>
-    <div class="warpper py-12 px-[4rem]">
+    <div class="warpper py-8 px-[4rem] relative">
       <h1 class="text-4xl">Our Values</h1>
-  
+      <img class="absolute w-[25rem] bottom-16 left-0" src="../../assets/images/our-values.png" alt="">
       <div class="whole-container flex py-[3rem] px-8 justify-between">
-        <div class="right-container ml-auto w-[35%] flex flex-grow justify-center items-center  ">
-        <img src="../../assets/images/our-values.png" alt="">
+        <div class="ml-auto w-[35%] flex flex-grow justify-center items-center  ">
         </div>  
-        <div class="left-container w-[60%] mr-auto flex flex-wrap mt-8">
+        <div class="w-[60%] mr-auto flex flex-wrap mt-8">
               <div class="content">
                   <img src="../../assets/images/icon/medal.png" alt="">
                   <h2>E-mobility</h2>
