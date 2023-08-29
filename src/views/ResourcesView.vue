@@ -1,15 +1,21 @@
 <template>
   <div>
-    resources page
+    <Navbar/>
+    <PageFooter/>
+  
   </div>
-</template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>
+  </template>
+  
+  
+  <script setup>
+  
+  import Navbar from '../components/Navbar.vue';
+  import PageFooter from '../components/PageFooter.vue';
+  
+  
+  
+  </script>
+  
+  <style>
+  
+  </style>

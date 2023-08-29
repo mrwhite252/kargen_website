@@ -4,7 +4,7 @@
     <h1 class="text-4xl">Applications</h1>
 
     <div class="whole-container flex py-[3rem] px-8 justify-between">
-        <div class="left-container w-[50%] mr-auto flex flex-wrap mt-8">
+        <div class="left-container w-[60%] mr-auto flex flex-wrap mt-8">
             <div class="content">
                 <img src="../../assets/images/icon/medal.png" alt="">
                 <h2>E-mobility</h2>
@@ -26,7 +26,7 @@
                 <p>Lorem, ipsum dolor.</p>
             </div>
         </div>
-        <div class="right-container ml-auto w-[40%] flex flex-grow justify-center items-center  ">
+        <div class="right-container ml-auto w-[30%] flex flex-grow justify-center items-center  ">
             <img class="block" src="../../assets/images/application.png" alt="">
         </div>
     </div>

@@ -1,15 +1,21 @@
 <template>
-  <div>
-    news page
-  </div>
-</template>
-
-<script>
-export default {
-
-}
-</script>
-
-<style>
-
-</style>
+    <div>
+      <Navbar/>
+      <PageFooter/>
+    
+    </div>
+    </template>
+    
+    
+    <script setup>
+    
+    import Navbar from '../components/Navbar.vue';
+    import PageFooter from '../components/PageFooter.vue';
+    
+    
+    
+    </script>
+    
+    <style>
+    
+    </style>

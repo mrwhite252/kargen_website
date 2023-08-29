@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="wrapper flex justify-center py-20">
+  <div class="wrapper flex justify-center py-32">
 
-    <div class="content flex flex-col items-center px-16 py-8" v-for="content in contents" :key="content.id">
+    <div class="content flex flex-col items-center px-16 justify-center" v-for="content in contents" :key="content.id">
         <h1> {{ content.number }}</h1>
         <p> {{ content.message }}</p>
         <div></div>
@@ -38,6 +38,7 @@ const contents = [
 
 .wrapper {
     width:100%;
+    height:30rem;
     background-image:url('../../assets/images/section-background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +46,7 @@ const contents = [
 
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 p {
