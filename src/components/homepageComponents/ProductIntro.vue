@@ -1,8 +1,6 @@
 <template>
   <div class="wrapper">
-
-    <img class="mx-auto" src="../../assets/images/products.png" alt="">
-    <div class="content-wrap flex justify-around py-12">
+    <div class="content-wrap flex justify-around pt-[18rem] pb-8">
         <div>
             <img src="../../assets/images/icon/sphere.png" alt="">
             <p class="title">Polymer Microspheres</p>
@@ -36,7 +34,8 @@ export default {
 .wrapper {
     background-image: url('../../assets/images/productIntro-background.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
+    
 }
 
 .content-wrap img {
