@@ -2,7 +2,7 @@
 <template>
   <div class="wrapper">
 
-    <div class="relative w-[80%] mx-auto">
+    <!-- <div class="relative w-[80%] mx-auto"> -->
     <div class="text-wrapper">
         <h1 class="pb-4" >Eco-friendly solution for<br/>
             lithium-ion energy<br/>
@@ -13,8 +13,8 @@
                 <p>Watch Video</p>
             </div>
     </div>
-
-    </div>
+<!-- 
+    </div> -->
    
   </div>
 </template>
