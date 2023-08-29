@@ -10,6 +10,7 @@
   <Achievement/>
   <ProductIntro/>
   <Application/>
+  <LatestNews/>
 </div>
 
 
@@ -24,6 +25,7 @@ import Achievement from "../components/homepageComponents/Achievement.vue";
 import ProductIntro from "../components/homepageComponents/ProductIntro.vue";
 import Application from "../components/homepageComponents/Application.vue";
 import Navbar from '../components/Navbar.vue';
+import LatestNews from '../components/homepageComponents/LatestNews.vue';
 
 
 
