@@ -2,7 +2,7 @@
     <div>
       <Navbar/>
       <ThumbSection/>
-
+      <NewsContents/>
       <PageFooter/>
     
     </div>
@@ -13,7 +13,8 @@
     
     import Navbar from '../components/Navbar.vue';
     import PageFooter from '../components/PageFooter.vue';
-import ThumbSection from '../components/newspageComponents/thumbSection.vue';
+    import ThumbSection from '../components/newspageComponents/ThumbSection.vue';
+    import NewsContents from '../components/newspageComponents/NewsContents.vue';
     
     
     
