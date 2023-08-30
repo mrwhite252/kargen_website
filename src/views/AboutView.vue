@@ -5,6 +5,7 @@
   <HistorySection/>
   <OurValues/>
   <CEO/>
+  <HiringSection/>
 
   <PageFooter/>
 
@@ -20,6 +21,7 @@ import ThumbSection from '../components/aboutpageComponents/thumbSection.vue';
 import HistorySection from '../components/aboutpageComponents/HistorySection.vue';
 import OurValues from '../components/aboutpageComponents/OurValues.vue';
 import CEO from '../components/aboutpageComponents/CEO.vue';
+import HiringSection from '../components/aboutpageComponents/HiringSection.vue';
 
 
 
