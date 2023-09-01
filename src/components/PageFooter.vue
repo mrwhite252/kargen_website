@@ -2,13 +2,13 @@
   <div class="bg-[#f4f4f4] px-12 py-8 text-[#747474]">
     <div class="upper-part flex pb-16">
         <div class="pr-16">
-            <h1>About Us</h1>
-            <p>About Kargen</p>
-            <p>News</p>
+        <router-link to="/about"> <h1>About Us</h1></router-link>   
+        <router-link to="/about">  <p>About Kargen</p></router-link>
+        <router-link to="/news">  <p>News</p></router-link>
             <p>Careers</p>
         </div>
         <div>
-            <h1>Products</h1>
+            <router-link to="/products"><h1>Products</h1></router-link> 
             <p>Polymer Microspheres</p>
             <p>Carbon Nanotubes</p>
             <p>Metal Organic Frameworks</p>
