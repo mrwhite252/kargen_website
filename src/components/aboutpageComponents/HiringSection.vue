@@ -11,11 +11,11 @@
                     <h2 class="text-2xl font-bold pb-2">{{ content.title }}</h2>
                     <p><span class="font-bold">Location:</span> {{ content.location }}</p>
                 </div>
-                <div class="ml-auto" @click="showContent">
+                <div class="ml-auto">
                     <p class="text-4xl text-[#3f54d0]">+</p>
                 </div>
             </div>
-            <div v-if="showDesc">{{ content.desc }}</div>
+            <!-- <div v-if="showDesc">{{ content.desc }}</div> -->
         </div>
     </div>
   </div>
@@ -23,7 +23,7 @@
 
 <script setup>
 
-import { ref } from 'vue';
+// import { ref } from 'vue';
 
 const contents = [
     {
@@ -58,12 +58,13 @@ const contents = [
     },
 ]
 
-let showDesc = ref(false);
+// let showDesc = ref(false);
 
-const showContent = (e) => {
-    console.log(e.target);
-   return showDesc.value = !showDesc.value;
-}
+// const showContent = (id) => {
+//     console.log(id);
+
+//    return showDesc.value = !showDesc.value;
+// }
 
 
 </script>
