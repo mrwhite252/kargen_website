@@ -1,6 +1,11 @@
 <template>
   <div>
     <Navbar/>
+
+    <div class="h-[70vh]">
+      <!-- later on content will be shown here -->
+    </div>
+
     <PageFooter/>
   
   </div>
