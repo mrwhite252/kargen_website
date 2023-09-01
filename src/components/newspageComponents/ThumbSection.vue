@@ -1,6 +1,6 @@
 <template>
-  <div class="flex px-12 py-16 justify-between">
-    <div class="left w-2/3">
+  <div class="flex px-16 py-[5rem] justify-between">
+    <div class="left w-2/3 pt-12">
         <h1 class="text-5xl pb-2">News</h1>
         <p class="">Get to know more about Kargen in news.</p>
         <div class="flex border border-black justify-bewteen w-[20rem] mt-4">
