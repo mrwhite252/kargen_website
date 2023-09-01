@@ -1,0 +1,1 @@
+import{o as a,c as s,j as e,b as o,N as t,P as c}from"./index-84902185.js";const r=o("div",{class:"h-[70vh]"},null,-1),d={__name:"ResourcesView",setup(n){return(_,l)=>(a(),s("div",null,[e(t),r,e(c)]))}};export{d as default};
