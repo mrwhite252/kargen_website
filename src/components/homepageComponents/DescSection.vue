@@ -1,10 +1,10 @@
 <template>
-  <div class="flex flex-nowrap justify-between w-[80%] mx-auto py-16">
+  <div class="flex flex-nowrap gap-20 w-[80%] mx-auto py-16">
 <img class="w-[22rem]" src="../../assets/images/about-us.png" alt="">
 
-<div class="flex flex-col ml-12 justify-between pt-24 ">
+<div class="flex flex-col pt-24">
     <div class="line"></div>
-    <h1 class="text-3xl flex-1 mb-auto">Our polymer materials offer excellent stability and flexibility for battery separator manufacturers.</h1>
+    <h1 class="text-3xl flex-1 mb-auto leading-relaxed">Our polymer materials offer <br/> excellent stability and flexibility <br/> for battery separator manufacturers.</h1>
     <div class="btn">
         <p>About Us</p>
     </div>
